@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+img {
+  max-width: 100%;
+}
+
+.details {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 1em;
+  padding: 2em;
+  border-radius: 1em;
+  color: white;
+  border: none;
+  transition: 1s ease;
+}
+
+.btn:hover,
+.btn:active {
+  opacity: 0.6;
+}
+.start {
+  background-color: green;
+}
+
+.stop {
+  background-color: rgb(202, 114, 114);
+}
+
+.reset {
+  background-color: yellowgreen;
+}
+
+/* Media queries */
+
+@media all and (min-width: 800px) {
+  figure {
+    text-align: center;
+  }
+  img {
+    max-width: 50%;
+  }
+}
